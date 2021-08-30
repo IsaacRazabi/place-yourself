@@ -1,0 +1,155 @@
+.backoffice-section-navBar{
+    grid-column: 1/-1;
+}
+.backoffice-section-footer{
+    grid-column: 1/-1;
+    padding-top: 80px;
+}
+.backoffice-section{
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    grid-auto-flow: dense;
+}
+.backoffice-offer-gallery{
+    display: flex;
+}
+.booking-info{
+    width: 100%;
+}
+
+.backoffice-main-container{
+    /* width: 1024px; */
+    grid-column: 2;
+    display: flex;
+    padding-top: 90px;
+    
+}
+.backoffice-user-details{
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    width: 310px;
+    height: 550px;
+    display: block;
+    align-self: start;  
+    position: sticky;
+    top: 130px;
+    padding: 40px 20px 40px;
+    font-family: Avenir,Helvetica,Arial,sans-serif;
+    /* color: #6b6a6a; */
+    
+}
+.backoffice-user-img img{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+}
+.backoffice-user-img p{
+    font-size: 16px;
+    text-decoration-line: underline;
+}
+.backoffice-identity-verification h3{
+    // padding-left:20%;
+    // justify-content: center;
+}
+.backoffice-btn-badge button{
+    padding: 15px 40px;
+    border-radius: 10px;
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(255, 56, 92);
+}
+.backoffice-btn-add button{
+padding: 15px 40px;
+    border-radius: 10px;
+    width: 50%;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(255, 56, 92);
+}
+.Houses-statistics{
+    width: 1000px;
+    padding: 40px 0px 40px 0px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 60px;
+}
+.backoffice-main{
+    margin-left:20px;
+}
+// .backoffice-main-hello p{
+//     text-align: left;
+// }
+.backoffice-main-hello{
+    padding-bottom: 50px;
+    padding: 40px 0px 40px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.backoffice-offer-details{
+    text-align: left;
+    padding: 0px 0px 40px 0px;
+}
+.backoffice-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.backoffice-name{
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 40px;
+}
+.contacts-icons img{
+    width: 20px;
+    margin:15px;
+}
+.guest-user img{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    
+}
+.guest-user span{
+    padding: 10px;
+}
+
+.guest-user{
+    display: flex;
+    justify-content: left;
+    margin-left:15px ;
+} 
+.backoffice-offer-card-img img{
+    width: 320px;
+    height: 200px;
+    margin-inline-end: 15px;
+    border-radius: 15px;
+    object-fit: cover;
+} 
+.backoffice-offer-card{
+    display: flex;
+    margin-bottom: 70px;
+    width: 1000px;
+}
+th {
+    font-size: 1rem;
+    background-color: #eee;
+    padding: 5px;
+    height: 40px;
+    font-size: .9rem;
+    position: sticky;
+    top: 0;
+}
+.backoffice-offer-card-ditails {
+    overflow-y: auto;
+    height: 800px;
+    width: 100%;
+    box-shadow: 0 6px 16px hsla(0,0%,45.9%,.12);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

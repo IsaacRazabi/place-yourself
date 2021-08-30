@@ -1,0 +1,92 @@
+.main-display {
+    position: relative;
+    grid-column: 1/-1;
+    /* position: fixed;
+      width: 100%;
+      z-index: 1000; */
+  }
+  
+  .filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 110px;
+    border-radius: 50px;
+    background-color: #fff;
+    height: 40px;
+    // box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    padding: 20px 0;
+    z-index: 2;
+  }
+  .filter * > {
+    width: 250px;
+  }
+  .bgc-img-contaner{
+    height: 89vh;
+    width: 100%;
+    position: relative;
+    grid-column: 1/-1;
+  }
+  .bgc-img {
+    height: 88.5vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .header-main-title{
+    position: absolute;
+    bottom: 200px ;
+    left:80px;
+    z-index: 3;
+    color: white;
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    // box-shadow: 10px 10px 8px 10px #888888;
+  }
+  
+
+  #cf {
+    position:relative;
+    
+    margin:0 auto;
+  }
+  
+  #cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
+  }
+  
+    @keyframes cf3FadeInOut {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+  
+  #cf img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+  animation-direction: alternate;
+  
+  }

@@ -1,0 +1,13 @@
+header.main-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 60%, rgba(255,255,255,.8) 86%, rgba(255,255,255,0) 100%);
+
+    .logo {
+        width: 260px;
+    }
+}

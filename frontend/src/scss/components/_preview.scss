@@ -1,0 +1,62 @@
+.card-details{
+    color: rgb(34, 34, 34);
+    font-size: 16px ;
+    line-height: 10px ;
+    text-decoration-line: none;
+    text-decoration-style: none;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .voters{
+    color: rgb(113, 113, 113);
+    font-size: 14px ;
+  }
+  .rating{
+    font-size: 14px ;
+  }
+  .cost{
+    font-size: 16px ;
+    line-height: 20px ;
+    font-weight: 600;
+  }
+  .showImage-img{
+    width: 360px;
+    height: 240px;
+    border-radius: 15px;
+  }
+  .card-img img{
+    width: 360px;
+    height: 240px;
+    border-radius: 15px;
+  }
+  
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 33% solid black;
+  
+  }
+  .card{
+    flex-basis: 33%;
+  }
+  .card-details{
+    text-align: left;
+  }
+  .card-details img{
+    width: 15px;
+    height: 15px;
+  }  
+  .my-heart{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    font-size: 35px;
+    color: black;
+    transition: 0.5s;
+  }
+  .my-heart:hover{
+    color: white;
+    transition: 0.5s;
+  }
+  

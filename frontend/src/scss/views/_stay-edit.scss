@@ -1,0 +1,37 @@
+.add-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .edit-navBar{
+    top: 0;
+  }
+  .stay-edit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+  }
+  .edit-input {
+    min-width: 250px;
+    /* width: 28%; */
+    max-width: 400px;
+    outline: none !important;
+    margin-bottom: 7px;
+    border-radius: 8px;
+    height: 2.6rem;
+    border-width: 1px;
+  }
+  // .edit-container{
+  //   padding-top: 100;
+  // }
+  .edit-container button {
+    margin-top: 100px;
+    min-width: 250px;
+    /* width: 28%; */
+    max-width: 400px;
+    color: hotpink;
+    font-size: 1rem;
+  }

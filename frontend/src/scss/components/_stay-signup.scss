@@ -1,0 +1,32 @@
+.signup-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.signup-input{
+  min-width: 250px;
+    width: 28%;
+    max-width: 400px;
+    outline: none!important;
+    margin-bottom: 7px;
+    border-radius: 8px;
+    height: 2.6rem;
+    border-width: 1px;
+}
+.signup-wraaper{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup-wraaper label{
+  font-size: 2rem ;
+}
+.signup-wraaper button{
+      min-width: 250px;
+    width: 28%;
+    max-width: 400px;
+    color: hotpink;
+    font-size: 1rem;
+}
